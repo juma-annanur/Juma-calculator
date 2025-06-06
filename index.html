@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Калькулятор | Juma</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧮</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <h1>Калькулятор</h1>
+    <div class="calculator">
+      <input type="text" id="display" disabled>
+      <div class="buttons" id="buttons"></div>
+      <div class="history-container">
+        <div class="history-header">
+          <span>История</span>
+          <button id="clear-history">Очистить</button>
+        </div>
+        <div class="history" id="history"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
